@@ -9,8 +9,8 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className=" text-left mt-60 max-sm:mt-20  text-7xl max-sm:text-5xl md:text-8xl font-bold mb-6 pb-1 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent leading-right flex flex-col">
-            <p>Muaz Hamza</p>
-            <p>Leventoğlu</p>
+            <p>Fatih</p>
+            <p>Bingöl</p>
           </h1>
 
           <div className="ml-5 my-10 flex justify-start space-x-6">
@@ -41,21 +41,40 @@ export const Home = () => {
             </ul>
           </div>
 
-          <div className="card max-w-lg md:max-w-175 mt-55 text-gray-400 ">
+          <div className="card max-w-lg md:max-w-175 mt-55 text-gray-400">
             <p>
-            I am Muhammet Fatih Bingöl, a third-year Computer Engineering student at Istanbul University-Cerrahpaşa. My interest in artificial intelligence and robotic systems is one of the main reasons I chose to pursue computer engineering.
+              I am Muhammet Fatih Bingöl, a third-year Computer Engineering student at Istanbul University-Cerrahpaşa. My interest in artificial intelligence and robotic systems is one of the main reasons I chose to pursue computer engineering.
+            </p>
 
-Throughout my university life, I have successfully undertaken roles in software development and team leadership, which have helped me improve both my technical and communication skills. I have gained practical experience by working on projects focused on artificial intelligence, robotics, and autonomous systems. The experience I gained from these projects enabled me to become a finalist in the Teknofest Entrepreneurship Competition - Acceleration Category and the International Unmanned Aerial Vehicle Competitions. These achievements have strengthened my innovative thinking, teamwork, and problem-solving skills. Below, I would like to share details about some of the projects I have worked on.
-Gökmen-PG:
-Gökmen-PG is my rotary-wing aerial vehicle project with real-time autonomous navigation capabilities based on deep learning methods, designed for non-human environments or indoor/outdoor areas where GNSS satellite signals are inaccessible.
-Smart Web System:
-I developed a web-based API that allows users to manage, control, and monitor robotic operations via the internet. This system enables users to utilize AI models without needing to train them. It can be used in various fields such as search and rescue operations, agriculture, security, and surveillance.
-Autonomous Ground Vehicle for Agriculture:
-With the deep learning model I developed, our ground vehicle can autonomously detect and locate weeds, allowing for efficient soil cultivation without human intervention.
-Prometheus:
-A computer vision algorithm we developed for aerial vehicles. This model enables our aircraft to perform position estimation and object detection while in motion.
+            <p>
+              Throughout my university life, I have successfully undertaken roles in software development and team leadership, which have helped me improve both my technical and communication skills. I have gained practical experience by working on projects focused on artificial intelligence, robotics, and autonomous systems. 
+            </p>
 
-             </p>
+            <p>
+              The experience I gained from these projects enabled me to become a finalist in the Teknofest Entrepreneurship Competition - Acceleration Category and the International Unmanned Aerial Vehicle Competitions. These achievements have strengthened my innovative thinking, teamwork, and problem-solving skills.
+            </p>
+
+            <p>Below, I would like to share details about some of the projects I have worked on.</p>
+
+            <h3 className="text-white font-bold mt-4">Gökmen-PG</h3>
+            <p>
+              Gökmen-PG is my rotary-wing aerial vehicle project with real-time autonomous navigation capabilities based on deep learning methods, designed for non-human environments or indoor/outdoor areas where GNSS satellite signals are inaccessible.
+            </p>
+
+            <h3 className="text-white font-bold mt-4">Smart Web System</h3>
+            <p>
+              I developed a web-based API that allows users to manage, control, and monitor robotic operations via the internet. This system enables users to utilize AI models without needing to train them. It can be used in various fields such as search and rescue operations, agriculture, security, and surveillance.
+            </p>
+
+            <h3 className="text-white font-bold mt-4">Autonomous Ground Vehicle for Agriculture</h3>
+            <p>
+              With the deep learning model I developed, our ground vehicle can autonomously detect and locate weeds, allowing for efficient soil cultivation without human intervention.
+            </p>
+
+            <h3 className="text-white font-bold mt-4">Prometheus</h3>
+            <p>
+              A computer vision algorithm we developed for aerial vehicles. This model enables our aircraft to perform position estimation and object detection while in motion.
+            </p>
           </div>
 
         </div>
