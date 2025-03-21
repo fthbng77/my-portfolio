@@ -108,30 +108,23 @@ export const About = () => {
               </ul>
             </div>
             <div className="card">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Gökmen UAV team (2022 - 2024){" "}
-                  </h4>
-                  <p>
-                  - A unique classifier segmentation neural network model (PGNet) was developed for wild forests.
-                  </p>
-                  <p>
-                  - An object detection neural network model and an avoidance control algorithm were implemented.
-                  </p>
-                  <p>
-                  - Depth estimation and visual SLAM algorithms were developed using a monocular camera.
-                  </p>
-                  <h4 className="font-semibold">
-                    {" "}
-                    INARI - Industrial Drones Long Term Intern{" "}
-                  </h4>
-                  <p>
-                  - I completed my internship on image processing algorithms for a rotary-wing aerial vehicle that performs maintenance and repair in GNSS-denied environments in the shipbuilding industry.
-                  </p>
-                </div>
+                <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+                <div className="space-y-4 text-gray-300">
+                  <div>
+                    <h4 className="font-semibold"> Gökmen UAV Team (2022 - 2024) </h4>
+                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                      <li>Developed <strong>PGNet</strong>, a unique classifier segmentation neural network model for wild forests.</li>
+                      <li>Implemented an <strong>object detection neural network model</strong> and an <strong>avoidance control algorithm</strong> for autonomous navigation.</li>
+                      <li>Designed and optimized <strong>depth estimation</strong> and <strong>visual SLAM algorithms</strong> using a monocular camera.</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold"> INARI - Industrial Drones (Long-Term Intern) </h4>
+                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                      <li>Worked on <strong>image processing algorithms</strong> for a rotary-wing UAV performing maintenance and repairs in GNSS-denied environments within the shipbuilding industry.</li>
+                    </ul>
+                  </div>
               </div>
             </div>
           </div>
