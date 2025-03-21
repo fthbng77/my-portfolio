@@ -41,7 +41,7 @@ export const Home = () => {
             </ul>
           </div>
 
-          <div className="card max-w-lg md:max-w-175 mt-55 text-gray-400">
+          <div className="card max-w-lg md:max-w-175 mt-55 text-gray-400 text-justify">
             <p>
               I am Muhammet Fatih Bingöl, a third-year Computer Engineering student at Istanbul University-Cerrahpaşa. My interest in artificial intelligence and robotic systems is one of the main reasons I chose to pursue computer engineering.
             </p>
@@ -76,6 +76,7 @@ export const Home = () => {
               A computer vision algorithm we developed for aerial vehicles. This model enables our aircraft to perform position estimation and object detection while in motion.
             </p>
           </div>
+
 
         </div>
 
