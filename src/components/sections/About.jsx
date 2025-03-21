@@ -13,11 +13,10 @@ export const About = () => {
     "Image Processing",
     "Raspberry Pi",
     "NVIDIA Jetson",
-    "RGB-D, Stereo Cameras",
+    "RGB-D Camera",
+    "Stereo Camera",
     "Lidar"
   ];
-
-  const backendSkills = [".Net", "NodeJS", "Sql", "Entity Framework"];
 
   const otherTechnologies = [
     "Python",
