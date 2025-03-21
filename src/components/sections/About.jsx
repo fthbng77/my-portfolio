@@ -113,9 +113,24 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Gökmen UAV team (2024 - Present){" "}
+                    Gökmen UAV team (2022 - 2024){" "}
                   </h4>
-                  <p>Developed and maintained autonomous drone software.</p>
+                  <p>
+                  - A unique classifier segmentation neural network model (PGNet) was developed for wild forests.
+                  </p>
+                  <p>
+                  - An object detection neural network model and an avoidance control algorithm were implemented.
+                  </p>
+                  <p>
+                  - Depth estimation and visual SLAM algorithms were developed using a monocular camera.
+                  </p>
+                  <h4 className="font-semibold">
+                    {" "}
+                    INARI - Industrial Drones Long Term Intern{" "}
+                  </h4>
+                  <p>
+                  - I completed my internship on image processing algorithms for a rotary-wing aerial vehicle that performs maintenance and repair in GNSS-denied environments in the shipbuilding industry.
+                  </p>
                 </div>
               </div>
             </div>
