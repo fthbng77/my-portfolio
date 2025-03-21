@@ -34,7 +34,7 @@ export const SideBar = ({ menuOpen, setMenuOpen }) => {
                 <div className="flex">
                     <a href="#home" className={`mt-4 font-mono text-xl font-bold ${sbOpen ? "hidden" : "visible"}`}>
                         {""}
-                        muaz<span className="text-blue-500">.lev</span>{""}
+                        Fatih<span className="text-blue-500">.bng</span>{""}
                     </a>
                     <div onClick={() => setSbOpen((prev) => !prev)} className={`rounded-3xl text-white m-4 text-right cursor-pointer z-50 text-xl ${sbOpen ? "bg-[#091d1e]/60 px-3 py-2 ml-1" : "ml-4"}`}>
                         &#9776;
