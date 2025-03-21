@@ -47,31 +47,24 @@ export const Home = () => {
             </p>
 
             <p>
-              Throughout my university life, I have successfully undertaken roles in software development and team leadership, which have helped me improve both my technical and communication skills. I have gained practical experience by working on projects focused on artificial intelligence, robotics, and autonomous systems. 
-            </p>
+              Throughout my university life, I have successfully undertaken roles in software development and team leadership, which have helped me improve both my technical and communication skills. I have gained practical experience by working on projects focused on artificial intelligence, robotics, and autonomous systems. The experience I gained from these projects enabled me to become a finalist in the Teknofest Entrepreneurship Competition - Acceleration Category and the International Unmanned Aerial Vehicle Competitions. These achievements have strengthened my innovative thinking, teamwork, and problem-solving skills. Below, I would like to share details about some of the projects I have worked on.</p>
 
-            <p>
-              The experience I gained from these projects enabled me to become a finalist in the Teknofest Entrepreneurship Competition - Acceleration Category and the International Unmanned Aerial Vehicle Competitions. These achievements have strengthened my innovative thinking, teamwork, and problem-solving skills.
-            </p>
-
-            <p>Below, I would like to share details about some of the projects I have worked on.</p>
-
-            <h3 className="text-white font-bold mt-4">Gökmen-PG</h3>
+            <h3 className="text-white font-bold mt-4">Gökmen-PG:</h3>
             <p>
               Gökmen-PG is my rotary-wing aerial vehicle project with real-time autonomous navigation capabilities based on deep learning methods, designed for non-human environments or indoor/outdoor areas where GNSS satellite signals are inaccessible.
             </p>
 
-            <h3 className="text-white font-bold mt-4">Smart Web System</h3>
+            <h3 className="text-white font-bold mt-4">Smart Web System:</h3>
             <p>
               I developed a web-based API that allows users to manage, control, and monitor robotic operations via the internet. This system enables users to utilize AI models without needing to train them. It can be used in various fields such as search and rescue operations, agriculture, security, and surveillance.
             </p>
 
-            <h3 className="text-white font-bold mt-4">Autonomous Ground Vehicle for Agriculture</h3>
+            <h3 className="text-white font-bold mt-4">Autonomous Ground Vehicle for Agriculture:</h3>
             <p>
               With the deep learning model I developed, our ground vehicle can autonomously detect and locate weeds, allowing for efficient soil cultivation without human intervention.
             </p>
 
-            <h3 className="text-white font-bold mt-4">Prometheus</h3>
+            <h3 className="text-white font-bold mt-4">Prometheus:</h3>
             <p>
               A computer vision algorithm we developed for aerial vehicles. This model enables our aircraft to perform position estimation and object detection while in motion.
             </p>
