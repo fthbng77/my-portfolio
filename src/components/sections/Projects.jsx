@@ -12,7 +12,7 @@ export const Projects = () => {
   // List of repositories that you want to display as pinned
   const pinnedRepos = [
     "gps-denied", // Replace with actual repo names
-    "Websocket_with_Ros",
+    "Smart_Web_System",
     "Rover_PR",
     "RoadNet",
     "evolving-simple-organisms",
