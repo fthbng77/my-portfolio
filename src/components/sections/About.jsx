@@ -92,7 +92,7 @@ export const About = () => {
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
-                    <h4 className="font-semibold"> Gökmen UAV Team (2022 - 2024) </h4>
+                    <h4 className="font-semibold"> GOKMEN HAVACILIK VE YAZILIM (2022 - 2024) </h4>
                     <ul className="list-disc list-inside text-gray-300 space-y-2">
                       <li>Developed <strong>PGNet</strong>, a unique classifier segmentation neural network model for wild forests.</li>
                       <li>Implemented an <strong>object detection neural network model</strong> and an <strong>avoidance control algorithm</strong> for autonomous navigation.</li>
