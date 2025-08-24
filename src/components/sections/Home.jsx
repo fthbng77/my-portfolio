@@ -8,17 +8,17 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className=" text-left mt-60 max-sm:mt-20  text-7xl max-sm:text-5xl md:text-8xl font-bold mb-6 pb-1 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent leading-right flex flex-col">
+          <h1 className="text-left mt-60 max-sm:mt-20 text-7xl max-sm:text-5xl md:text-8xl font-bold mb-6 pb-1 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent leading-right flex flex-col">
             <p>Fatih</p>
             <p>Bingöl</p>
           </h1>
 
           <div className="ml-5 my-10 flex justify-start space-x-6">
-            <button className=" button-2">Contact</button>
+            <button className="button-2">Contact</button>
             <button className="button-2">Projects</button>
           </div>
 
-          <div className=" max-sm:justify-center justify-between flex">
+          <div className="max-sm:justify-center justify-between flex">
             <ul className="flex max-sm:flex-col max-sm:justify-start justify-between space-x-5 w-full max-sm:text-left text-gray-400 text-xl space-y-3">
               <li>
                 <a href="https://github.com/fthbng77" target="_blank" rel="noopener noreferrer">
@@ -41,36 +41,35 @@ export const Home = () => {
             </ul>
           </div>
 
-          <div className="card max-w-lg md:max-w-175 mt-55 text-gray-400 text-justify">
+          <div className="card max-w-lg md:max-w-175 mt-16 text-gray-400 text-justify">
             <p>
-              I am Muhammet Fatih Bingöl, a third-year Computer Engineering student at Istanbul University-Cerrahpaşa. My interest in artificial intelligence and robotic systems is one of the main reasons I chose to pursue computer engineering.
+              I am <strong>Muhammet Fatih Bingöl</strong>, a third-year Computer Engineering student at Istanbul University-Cerrahpaşa. My passion for artificial intelligence and robotics led me to explore autonomous systems and deep learning technologies.
             </p>
 
-            <p>
-              Throughout my university life, I have successfully undertaken roles in software development and team leadership, which have helped me improve both my technical and communication skills. I have gained practical experience by working on projects focused on artificial intelligence, robotics, and autonomous systems. The experience I gained from these projects enabled me to become a finalist in the Teknofest Entrepreneurship Competition - Acceleration Category and the International Unmanned Aerial Vehicle Competitions. These achievements have strengthened my innovative thinking, teamwork, and problem-solving skills. Below, I would like to share details about some of the projects I have worked on.</p>
-
-            <h3 className="text-white font-bold mt-4">Gökmen-PG:</h3>
-            <p>
-              Gökmen-PG is my rotary-wing aerial vehicle project with real-time autonomous navigation capabilities based on deep learning methods, designed for non-human environments or indoor/outdoor areas where GNSS satellite signals are inaccessible.
+            <p className="mt-4">
+              Over the course of my academic journey, I’ve taken on software development and leadership roles in various projects. My work in AI and robotics has led to real-world applications, including finalist recognition at TEKNOFEST Entrepreneurship and International UAV Competitions. These experiences have sharpened my innovation, problem-solving, and team collaboration skills.
             </p>
 
-            <h3 className="text-white font-bold mt-4">Smart Web System:</h3>
+            <h3 className="text-white font-bold mt-6">Gökmen-PG</h3>
             <p>
-              I developed a web-based API that allows users to manage, control, and monitor robotic operations via the internet. This system enables users to utilize AI models without needing to train them. It can be used in various fields such as search and rescue operations, agriculture, security, and surveillance.
+              A deep learning-based autonomous rotary-wing aerial vehicle system designed for environments where GNSS signals are unavailable. It integrates segmentation, object detection, visual SLAM, and depth estimation using a monocular camera.
             </p>
 
-            <h3 className="text-white font-bold mt-4">Autonomous Ground Vehicle for Agriculture:</h3>
+            <h3 className="text-white font-bold mt-4">Smart Web System</h3>
             <p>
-              With the deep learning model I developed, our ground vehicle can autonomously detect and locate weeds, allowing for efficient soil cultivation without human intervention.
+              A web-based drone control API enabling real-time telemetry, positioning, and video streaming. Users can interact with autonomous systems over the internet without retraining models, applicable in rescue, agriculture, and security domains.
             </p>
 
-            <h3 className="text-white font-bold mt-4">Prometheus:</h3>
+            <h3 className="text-white font-bold mt-4">Autonomous Ground Vehicle for Agriculture</h3>
             <p>
-              A computer vision algorithm we developed for aerial vehicles. This model enables our aircraft to perform position estimation and object detection while in motion.
+              This vehicle detects and localizes weeds autonomously using deep learning techniques, enabling efficient unmanned soil treatment and crop protection.
+            </p>
+
+            <h3 className="text-white font-bold mt-4">Prometheus</h3>
+            <p>
+              A computer vision model for aerial vehicles that performs real-time object detection and pose estimation, enabling reliable in-flight navigation and scene understanding.
             </p>
           </div>
-
-
         </div>
 
         <div className="py-5"></div>
@@ -83,4 +82,3 @@ export const Home = () => {
     </section>
   );
 };
-  
