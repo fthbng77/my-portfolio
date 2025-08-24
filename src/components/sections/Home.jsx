@@ -27,7 +27,7 @@ export const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/fatih-bing%C3%B6l-1372b5222/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/fatih-bing%C3%B6l/" target="_blank" rel="noopener noreferrer">
                   <img src="https://raw.githubusercontent.com/fthbng77/my-portfolio/main/src/assets/linkedin.png" alt="LinkedIn" className="inline-block w-6 h-6 mr-2" />
                   LinkedIn
                 </a>

@@ -84,15 +84,13 @@ export const About = () => {
             <div className="card">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <div className="space-y-4 text-gray-300">
+
                 <div>
-                  <h4 className="font-semibold">GÖKMEN Havacılık ve Yazılım A.Ş. (2023–2024)</h4>
+                  <h4 className="font-semibold">Xena Vision Yazılım Savunma A.Ş. (Researcher, 2025)</h4>
                   <ul className="list-disc list-inside space-y-2">
-                    <li>Developed autonomous navigation software in GNSS-denied environments using deep learning.</li>
-                    <li>Designed object detection, segmentation, and depth estimation systems.</li>
-                    <li>Built Visual SLAM and UAV autopilot integrations with ROS and MAVLink.</li>
+                    <li>Worked on security-oriented object detection, tracking, and re-identification using 4D radar and camera fusion.</li>
                   </ul>
                 </div>
-
                 <div>
                   <h4 className="font-semibold">INARI – Industrial Drones (Intern, 2025)</h4>
                   <ul className="list-disc list-inside space-y-2">
@@ -101,9 +99,11 @@ export const About = () => {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold">Xena Vision Yazılım Savunma A.Ş. (Researcher, 2025)</h4>
+                  <h4 className="font-semibold">GÖKMEN Havacılık ve Yazılım A.Ş. (2023–2024)</h4>
                   <ul className="list-disc list-inside space-y-2">
-                    <li>Worked on security-oriented object detection, tracking, and re-identification using 4D radar and camera fusion.</li>
+                    <li>Developed autonomous navigation software in GNSS-denied environments using deep learning.</li>
+                    <li>Designed object detection, segmentation, and depth estimation systems.</li>
+                    <li>Built Visual SLAM and UAV autopilot integrations with ROS and MAVLink.</li>
                   </ul>
                 </div>
               </div>
